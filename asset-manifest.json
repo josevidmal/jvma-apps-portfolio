@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/jvma-apps-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/jvma-apps-portfolio/static/js/main.e45abe3d.js",
-    "static/js/787.647f2b4a.chunk.js": "/jvma-apps-portfolio/static/js/787.647f2b4a.chunk.js",
-    "static/media/logo.svg": "/jvma-apps-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/jvma-apps-portfolio/static/css/main.e7720ab7.css",
+    "main.js": "/jvma-apps-portfolio/static/js/main.9f788700.js",
     "index.html": "/jvma-apps-portfolio/index.html",
-    "main.073c9b0a.css.map": "/jvma-apps-portfolio/static/css/main.073c9b0a.css.map",
-    "main.e45abe3d.js.map": "/jvma-apps-portfolio/static/js/main.e45abe3d.js.map",
-    "787.647f2b4a.chunk.js.map": "/jvma-apps-portfolio/static/js/787.647f2b4a.chunk.js.map"
+    "main.e7720ab7.css.map": "/jvma-apps-portfolio/static/css/main.e7720ab7.css.map",
+    "main.9f788700.js.map": "/jvma-apps-portfolio/static/js/main.9f788700.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e45abe3d.js"
+    "static/css/main.e7720ab7.css",
+    "static/js/main.9f788700.js"
   ]
 }
