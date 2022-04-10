@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/jvma-apps-portfolio/static/css/main.e7720ab7.css",
-    "main.js": "/jvma-apps-portfolio/static/js/main.b11baa81.js",
+    "main.js": "/jvma-apps-portfolio/static/js/main.2561cdf8.js",
+    "static/media/linkedin-logo.png": "/jvma-apps-portfolio/static/media/linkedin-logo.e48e40cf628c34d79b43.png",
     "index.html": "/jvma-apps-portfolio/index.html",
     "main.e7720ab7.css.map": "/jvma-apps-portfolio/static/css/main.e7720ab7.css.map",
-    "main.b11baa81.js.map": "/jvma-apps-portfolio/static/js/main.b11baa81.js.map"
+    "main.2561cdf8.js.map": "/jvma-apps-portfolio/static/js/main.2561cdf8.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.b11baa81.js"
+    "static/js/main.2561cdf8.js"
   ]
 }
