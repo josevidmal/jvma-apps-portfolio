@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jvma-apps-portfolio/static/css/main.e7720ab7.css",
-    "main.js": "/jvma-apps-portfolio/static/js/main.9f788700.js",
+    "main.js": "/jvma-apps-portfolio/static/js/main.b11baa81.js",
     "index.html": "/jvma-apps-portfolio/index.html",
     "main.e7720ab7.css.map": "/jvma-apps-portfolio/static/css/main.e7720ab7.css.map",
-    "main.9f788700.js.map": "/jvma-apps-portfolio/static/js/main.9f788700.js.map"
+    "main.b11baa81.js.map": "/jvma-apps-portfolio/static/js/main.b11baa81.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.9f788700.js"
+    "static/js/main.b11baa81.js"
   ]
 }
