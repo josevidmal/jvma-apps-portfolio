@@ -9,7 +9,7 @@ const Footer = () => {
                 <li><a className="contact-links" id="stack-overflow" href="https://stackoverflow.com/users/17156054/jos%c3%a9-vidal" target="_blank"><img src={require("../assets/stack-overflow-logo.png")}/></a></li>
             </ul>
         </footer>
-    )
+    );
 }
 
 export default Footer;
