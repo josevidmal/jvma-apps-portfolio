@@ -1,11 +1,12 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-const Header = () => {
+const Header = ({ currentPage, handlePageChange }) => {
+    console.log("header", currentPage)
     return (
         <header>
             <h1>Jose Vidal</h1>
-            <Navigation />
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
         </header>
     );
 }

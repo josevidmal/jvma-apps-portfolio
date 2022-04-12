@@ -1,10 +1,11 @@
 import React from 'react';
+import ResumePdf from '../../assets/Resume - Jose Vidal Maza Alonso.pdf' 
 
 const Resume = () => {
     return (
         <section>
             <h1>Resume</h1>
-            <p>Download my<span><a href="../../assets/Resume - Jose Vidal Maza Alonso.pdf" download>Resume</a></span></p>
+            <p>Download my <span><a href={ResumePdf} download>Resume</a></span></p>
             <h2>Front-end Skills</h2>
                 <ul>
                     <li>HTML5</li>

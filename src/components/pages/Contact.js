@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers'
+import validateEmail from '../../utils/helpers'
 
 const Contact = () => {
 
@@ -10,7 +10,9 @@ const Contact = () => {
 
     const handleInputChange = (event) => {
 
-        const { field, value } = event.target;
+        const { target } = event;
+        const field = target.name;
+        const value = target.value;
 
         if (field === 'name') {
             setName(value);
@@ -24,7 +26,7 @@ const Contact = () => {
     const handleFormSubmit = (event) => {
         event.preventDefault();
 
-        if (!validateEmail(email)) {
+        if (email && !validateEmail(email)) {
             setRequiredField(`The Email address is not valid`);
             return;
         } if (!name) {
