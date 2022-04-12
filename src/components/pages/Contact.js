@@ -47,8 +47,32 @@ const Contact = () => {
         <section>
             <h1>Contact</h1>
             <form>
-                
+                <label for="name">Name:</label>
+                <input 
+                    value={name} 
+                    name="name" 
+                    onChange={handleInputChange} 
+                    type="text" 
+                />
+                <label for="email">Email Address:</label>
+                <input 
+                    value={email}
+                    name="email"
+                    onChange={handleInputChange}
+                    type="email"
+                />
+                <label for="message">Message:</label>
+                <textarea
+                    value={message}
+                    name="message"
+                    onChange={handleInputChange}
+                />
+                {requiredField && (
+                    <p>{requiredField}</p>
+                )}
+                <button type="submit" onClick={handleFormSubmit}>Submit</button>
             </form>
+            
         </section>
     )
 }
