@@ -23,20 +23,48 @@ const Contact = () => {
         }
     };
 
+    const handleOnBlurInput = (event) => {
+
+        const { target } = event;
+        const field = target.name;
+
+        if (field === 'name' && !name) {
+            setRequiredField("Name is required");
+        } if (field === 'email' && !email) {
+            setRequiredField("Email address is required");
+        } if (field === 'message' && !message) {
+            setRequiredField("Message is required");
+        } if (name && !email && !message) {
+            setRequiredField("Email address and message are required");
+        } if (name && email && validateEmail(email) && !message) {
+            setRequiredField("Message is required");
+        } if (name && !email && message) {
+            setRequiredField("Email address is required");
+        } if (!name && email && validateEmail(email) && message) {
+            setRequiredField("Name is required");
+        } if (!name && !email && message) {
+            setRequiredField("Name and email address are required")
+        } if (email && !validateEmail(email)) {
+            setRequiredField("The Email address is not valid");
+        } if (name && email && validateEmail(email) && message) {
+            setRequiredField("");
+        }
+    };
+
     const handleFormSubmit = (event) => {
         event.preventDefault();
 
         if (email && !validateEmail(email)) {
-            setRequiredField(`The Email address is not valid`);
+            setRequiredField("The Email address is not valid");
             return;
         } if (!name) {
-            setRequiredField(`Name is required`);
+            setRequiredField("Name is required");
             return;
         } if (!email) {
-            setRequiredField(`Email address is required`);
+            setRequiredField("Email address is required");
             return;
         } if (!message) {
-            setRequiredField(`Message is required`);
+            setRequiredField("Message is required");
             return;
         }
 
@@ -53,7 +81,8 @@ const Contact = () => {
                 <input 
                     value={name} 
                     name="name" 
-                    onChange={handleInputChange} 
+                    onChange={handleInputChange}
+                    onBlur={handleOnBlurInput}
                     type="text" 
                 />
                 <label for="email">Email Address:</label>
@@ -61,6 +90,7 @@ const Contact = () => {
                     value={email}
                     name="email"
                     onChange={handleInputChange}
+                    onBlur={handleOnBlurInput}
                     type="email"
                 />
                 <label for="message">Message:</label>
@@ -68,6 +98,7 @@ const Contact = () => {
                     value={message}
                     name="message"
                     onChange={handleInputChange}
+                    onBlur={handleOnBlurInput}
                 />
                 {requiredField && (
                     <p>{requiredField}</p>
