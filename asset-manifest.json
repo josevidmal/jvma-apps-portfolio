@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jvma-apps-portfolio/static/css/main.e7720ab7.css",
+    "main.css": "/jvma-apps-portfolio/static/css/main.419c00f9.css",
     "main.js": "/jvma-apps-portfolio/static/js/main.6f8d1819.js",
     "static/media/Resume - Jose Vidal Maza Alonso.pdf": "/jvma-apps-portfolio/static/media/Resume - Jose Vidal Maza Alonso.4af1814e39bdb1297868.pdf",
     "static/media/profile-picture-sample.jpg": "/jvma-apps-portfolio/static/media/profile-picture-sample.4652442ed765d9441946.jpg",
     "index.html": "/jvma-apps-portfolio/index.html",
-    "main.e7720ab7.css.map": "/jvma-apps-portfolio/static/css/main.e7720ab7.css.map",
+    "main.419c00f9.css.map": "/jvma-apps-portfolio/static/css/main.419c00f9.css.map",
     "main.6f8d1819.js.map": "/jvma-apps-portfolio/static/js/main.6f8d1819.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7720ab7.css",
+    "static/css/main.419c00f9.css",
     "static/js/main.6f8d1819.js"
   ]
 }
