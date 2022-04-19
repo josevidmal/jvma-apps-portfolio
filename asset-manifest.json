@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/jvma-apps-portfolio/static/css/main.419c00f9.css",
-    "main.js": "/jvma-apps-portfolio/static/js/main.6f8d1819.js",
+    "main.css": "/jvma-apps-portfolio/static/css/main.f94a5346.css",
+    "main.js": "/jvma-apps-portfolio/static/js/main.d9597f11.js",
+    "static/media/safe-trip-planner.png": "/jvma-apps-portfolio/static/media/safe-trip-planner.014c80f057d96f40dd25.png",
+    "static/media/motorcycle-club-1.png": "/jvma-apps-portfolio/static/media/motorcycle-club-1.f7c313c47040d3f983e7.png",
+    "static/media/weather-dashboard-displayed-info.png": "/jvma-apps-portfolio/static/media/weather-dashboard-displayed-info.6322cf03958d2a65ef6d.png",
+    "static/media/mvc-tech-blog-1.png": "/jvma-apps-portfolio/static/media/mvc-tech-blog-1.e14ea2e5a281577088d2.png",
+    "static/media/pwa-text-editor.png": "/jvma-apps-portfolio/static/media/pwa-text-editor.82354f177fc84cee6fef.png",
+    "static/media/note-taker-2.png": "/jvma-apps-portfolio/static/media/note-taker-2.ebfc4eb2b5bc488ee953.png",
+    "static/media/160636-software-desktop-wallpaper-top-free-software-desktop.jpeg": "/jvma-apps-portfolio/static/media/160636-software-desktop-wallpaper-top-free-software-desktop.7ef6d9d8c955bf751016.jpeg",
     "static/media/Resume - Jose Vidal Maza Alonso.pdf": "/jvma-apps-portfolio/static/media/Resume - Jose Vidal Maza Alonso.4af1814e39bdb1297868.pdf",
     "static/media/profile-picture-sample.jpg": "/jvma-apps-portfolio/static/media/profile-picture-sample.4652442ed765d9441946.jpg",
+    "static/media/linkedin-logo.png": "/jvma-apps-portfolio/static/media/linkedin-logo.e48e40cf628c34d79b43.png",
     "index.html": "/jvma-apps-portfolio/index.html",
-    "main.419c00f9.css.map": "/jvma-apps-portfolio/static/css/main.419c00f9.css.map",
-    "main.6f8d1819.js.map": "/jvma-apps-portfolio/static/js/main.6f8d1819.js.map"
+    "main.f94a5346.css.map": "/jvma-apps-portfolio/static/css/main.f94a5346.css.map",
+    "main.d9597f11.js.map": "/jvma-apps-portfolio/static/js/main.d9597f11.js.map"
   },
   "entrypoints": [
-    "static/css/main.419c00f9.css",
-    "static/js/main.6f8d1819.js"
+    "static/css/main.f94a5346.css",
+    "static/js/main.d9597f11.js"
   ]
 }
