@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jvma-apps-portfolio/static/css/main.e953e74a.css",
+    "main.css": "/jvma-apps-portfolio/static/css/main.16d241c9.css",
     "main.js": "/jvma-apps-portfolio/static/js/main.221bcd37.js",
     "static/media/safe-trip-planner.png": "/jvma-apps-portfolio/static/media/safe-trip-planner.014c80f057d96f40dd25.png",
     "static/media/motorcycle-club-1.png": "/jvma-apps-portfolio/static/media/motorcycle-club-1.f7c313c47040d3f983e7.png",
@@ -14,11 +14,11 @@
     "static/media/Resume - Jose Vidal Maza Alonso.pdf": "/jvma-apps-portfolio/static/media/Resume - Jose Vidal Maza Alonso.4af1814e39bdb1297868.pdf",
     "static/media/linkedin-logo.png": "/jvma-apps-portfolio/static/media/linkedin-logo.e48e40cf628c34d79b43.png",
     "index.html": "/jvma-apps-portfolio/index.html",
-    "main.e953e74a.css.map": "/jvma-apps-portfolio/static/css/main.e953e74a.css.map",
+    "main.16d241c9.css.map": "/jvma-apps-portfolio/static/css/main.16d241c9.css.map",
     "main.221bcd37.js.map": "/jvma-apps-portfolio/static/js/main.221bcd37.js.map"
   },
   "entrypoints": [
-    "static/css/main.e953e74a.css",
+    "static/css/main.16d241c9.css",
     "static/js/main.221bcd37.js"
   ]
 }
