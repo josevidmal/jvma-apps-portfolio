@@ -4,9 +4,9 @@ import Navigation from './Navigation';
 const Header = ({ currentPage, handlePageChange }) => {
     console.log("header", currentPage)
     return (
-        <header className="container-fluid">
-            <div className="row justify-content">
-                <h1 className="col-4">Jose Vidal</h1>
+        <header className="d-flex justify-content-center custom-header">
+            <div className="row container-fluid p-0 align-items-center">
+                <h1 className="col-12 col-sm-12 col-md-4">José Vidal</h1>
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
             </div>
         </header>

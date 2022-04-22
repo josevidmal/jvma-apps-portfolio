@@ -42,6 +42,8 @@ const Contact = () => {
             setRequiredField("Email address is required");
         } if (!name && email && validateEmail(email) && message) {
             setRequiredField("Name is required");
+        } if (!name && email && validateEmail(email) && !message) {
+            setRequiredField("Name and message are required")
         } if (!name && !email && message) {
             setRequiredField("Name and email address are required")
         } if (email && !validateEmail(email)) {
@@ -74,36 +76,39 @@ const Contact = () => {
     };
 
     return (
-        <section>
-            <h1>Contact</h1>
-            <form>
-                <label for="name">Name:</label>
+        <section className="container-fluid p-4 main-section">
+            <h1 className="row justify-content-center my-4">Contact</h1>
+            <form id="contact-form">
+                <label className="row mx-0 my-2" htmlFor="name">Name:</label>
                 <input 
+                    className="row mx-0 my-2"
                     value={name} 
                     name="name" 
                     onChange={handleInputChange}
                     onBlur={handleOnBlurInput}
                     type="text" 
                 />
-                <label for="email">Email Address:</label>
+                <label className="row mx-0 my-2" htmlFor="email">Email Address:</label>
                 <input 
+                    className="row mx-0 my-2"
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     onBlur={handleOnBlurInput}
                     type="email"
                 />
-                <label for="message">Message:</label>
+                <label className="row mx-0 my-2" htmlFor="message">Message:</label>
                 <textarea
+                    className="row mx-0 my-2"
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     onBlur={handleOnBlurInput}
                 />
                 {requiredField && (
-                    <p>{requiredField}</p>
+                    <p id="required" className="row mx-0 my-2">{requiredField}</p>
                 )}
-                <button type="submit" onClick={handleFormSubmit}>Submit</button>
+                <button id="submit-btn" className="row justify-content-center mx-auto my-3" type="submit" onClick={handleFormSubmit}>Submit</button>
             </form>
             
         </section>

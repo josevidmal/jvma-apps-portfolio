@@ -1,5 +1,6 @@
 const projectData = [
     {
+        id: 1,
         title: "My MVC Tech Blog",
         github: "https://github.com/josevidmal/my-mvc-tech-blog-app",
         deployed: "https://my-mvc-tech-blog-app.herokuapp.com/",
@@ -9,6 +10,7 @@ const projectData = [
         }
     },
     {
+        id: 2,
         title: "PWA Text Editor",
         github: "https://github.com/josevidmal/jvma-text-editor-pwa",
         deployed: "https://jvma-text-editor-pwa.herokuapp.com/",
@@ -18,6 +20,7 @@ const projectData = [
         }
     },
     {
+        id: 3,
         title: "Motorcycle Club",
         github: "https://github.com/josevidmal/team-project-2",
         deployed: "https://motorcycle-club.herokuapp.com/",
@@ -27,6 +30,7 @@ const projectData = [
         }
     },
     {
+        id: 4,
         title: "Trip Planner",
         github: "https://github.com/josevidmal/u7-project1-team4",
         deployed: "https://josevidmal.github.io/u7-project1-team4/",
@@ -36,6 +40,7 @@ const projectData = [
         }
     },
     {
+        id: 5,
         title: "Weather Dashboard",
         github: "https://github.com/josevidmal/u6-hw-server-side-api-weather-dashboard",
         deployed: "https://josevidmal.github.io/u6-hw-server-side-api-weather-dashboard/",
@@ -45,6 +50,7 @@ const projectData = [
         }
     },
     {
+        id: 6,
         title: "Note Taker",
         github: "https://github.com/josevidmal/u11-hw-express.js-note-taker",
         deployed: "https://jv-notetaker-app.herokuapp.com/",

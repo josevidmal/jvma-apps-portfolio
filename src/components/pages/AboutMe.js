@@ -2,10 +2,10 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <section>
-            <h1>About Me</h1>
-            <img src={require("../../assets/profile-picture-sample.jpg")}/>
-            <p>
+        <section className="container-fluid p-4 main-section">
+            <h1 className="row justify-content-center my-4">About Me</h1>
+            <img id="profile-img" className="row justify-content-center mx-auto my-4" src={require("../../assets/profile-image.png")} alt="profile"/>
+            <p id="brand-statement" className="row justify-content-center my-4">
                 Passionate Full Stack web developer with experience in sales, supply chain and customer service, with a Bachelor's 
                 Degree in International Business from Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM). Skills 
                 and technologies include HTML5, CSS3, JavaScript ES6+, RESTful APIs, Node.js, NPM, Express.js, SQL (MySQL), Sequelize, 

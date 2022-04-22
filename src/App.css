@@ -1,0 +1,193 @@
+.custom-header {
+    height: 10em;
+    background-image: url("./assets/160636-software-desktop-wallpaper-top-free-software-desktop.jpeg");
+    background-position: 3% 37%;
+    background-size: 140%;
+}
+
+.custom-header h1 {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+}
+
+.custom-nav .nav .nav-item .nav-link {
+    color: white;
+    font-size: 125%;
+    text-align: center;
+}
+
+.custom-nav .nav .nav-item .active {
+    color: orange
+}
+
+#profile-img {
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.main-section {
+    border-top: 5px solid steelblue;
+    border-bottom: 5px solid steelblue;
+}
+
+.main-section h1, .main-section p, .main-section form label, .main-section form p {
+    color: black;
+}
+
+.main-section p, .main-section li {
+    font-size: 88%;
+}
+
+#brand-statement {
+    text-align: justify;
+}
+
+.project-div {
+    width: 100%;
+    border: 2px solid steelblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.project-div h3 {
+    width: 100%;
+    color: black;
+    background-color: steelblue;
+    text-align: center;
+    padding: 5px;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.project-links {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: steelblue;
+    padding: 1px;
+    width: 7.5em;
+    font-size: 105%;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.project-div:hover .project-links {
+    visibility: visible;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: animatebottom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes animatebottom {
+    from {bottom: -100px; opacity: 0}
+    to {bottom: 100px; opacity: 1}
+}
+
+@keyframes animatebottom {
+    from {bottom: -100px; opacity: 0}
+    to {bottom: 100px; opacity: 1}
+}
+
+#repo-link {
+    border-radius: 0px 5px 0px 0px;
+}
+
+#app-link {
+    border-radius: 5px 0px 0px 0px;
+}
+
+.project-links:hover {
+    color: white;
+}
+
+#project-1 a {
+    bottom: 0;
+    right: 0;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    font-family: monospace;
+    padding: 1px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    border: 2px solid orange;
+}
+
+#contact-form textarea {
+    height: 150px;
+}
+
+#submit-btn {
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: steelblue;
+}
+
+#submit-btn:hover {
+    background-color: lightseagreen;
+}
+
+#required {
+    color: red;
+}
+
+#resume-download {
+    text-align: center;
+}
+
+#resume-link {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+#resume-link:hover {
+    color: steelblue;
+}
+
+.custom-footer {
+    height: 7em;
+    background-color: rgb(20, 44, 99);
+}
+
+.custom-footer .nav .nav-item .nav-link {
+    color: gray;
+    font-size: 40px;
+}
+
+.custom-footer .nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+@media screen and (min-width: 576px) {
+
+    .custom-header {
+        background-position: 0% 55%;
+        background-size: 135%;
+    }
+
+    #profile-img {
+        width: 30%;
+        height: 30%;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+
+    .project-links {
+        font-size: 140%;
+    }
+}
