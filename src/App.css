@@ -89,12 +89,12 @@
 
 @-webkit-keyframes animatebottom {
     from {bottom: -25px; opacity: 0}
-    to {bottom: 25px; opacity: 1}
+    to {bottom: 0px; opacity: 1}
 }
 
 @keyframes animatebottom {
     from {bottom: -25px; opacity: 0}
-    to {bottom: 25px; opacity: 1}
+    to {bottom: 0px; opacity: 1}
 }
 
 #repo-link {
