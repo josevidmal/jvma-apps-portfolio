@@ -23,7 +23,6 @@ const PorfolioContainer = () => {
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
-    console.log("portfolio container", currentPage)
     return (
         <div>
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>

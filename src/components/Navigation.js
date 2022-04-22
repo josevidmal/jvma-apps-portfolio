@@ -2,7 +2,6 @@ import React from 'react';
 import '../../src/App.css' 
 
 const Navigation = ({ currentPage, handlePageChange }) => {
-    console.log("navigation", currentPage)
     return (
         <nav className="col-12 col-sm-12 col-md-8 container-fluid custom-nav">
             <ul className="nav justify-content-center">

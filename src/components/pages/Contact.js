@@ -76,8 +76,8 @@ const Contact = () => {
     };
 
     return (
-        <section className="container-fluid p-4 main-section">
-            <h1 className="row justify-content-center my-4">Contact</h1>
+        <section className="container-fluid p-4 px-md-5 main-section">
+            <h2 className="row justify-content-center justify-content-md-start my-4 px-md-2">Contact</h2>
             <form id="contact-form">
                 <label className="row mx-0 my-2" htmlFor="name">Name:</label>
                 <input 
@@ -108,7 +108,7 @@ const Contact = () => {
                 {requiredField && (
                     <p id="required" className="row mx-0 my-2">{requiredField}</p>
                 )}
-                <button id="submit-btn" className="row justify-content-center mx-auto my-3" type="submit" onClick={handleFormSubmit}>Submit</button>
+                <button id="submit-btn" className="row justify-content-center mx-auto my-3 mx-md-0" type="submit" onClick={handleFormSubmit}>Submit</button>
             </form>
             
         </section>

@@ -5,12 +5,13 @@ import { FaGithub } from 'react-icons/fa';
 const Project = () => {
 
     return (
-        <section className="grid">
+        <section className="container-fluid px-md-0">
+            <div className="row justify-content-between">
         {projectData.map(project => (
-            <div id={`project-${project.id}`} className="grid-row my-5 position-relative project-div" key={project.id}>
-                <h3 className="m-0">
+            <div id={`project-${project.id}`} className="p-0 my-3 position-relative col-md-5 mx-md-2 project-div" key={project.id}>
+                <h4 className="m-0">
                     {project.title}
-                </h3>
+                </h4>
                 <img className="position-relative project-img" src={require(`../../assets/${project.image.src}.png`)} alt={project.image.alt}/>
                 <a id="repo-link" className="position-absolute bottom-0 start-0 project-links" href={project.github}>
                     <FaGithub />
@@ -20,6 +21,7 @@ const Project = () => {
                 </a>
             </div>
         ))}
+            </div>
         </section>
     )
 }

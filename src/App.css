@@ -33,7 +33,7 @@
     border-bottom: 5px solid steelblue;
 }
 
-.main-section h1, .main-section p, .main-section form label, .main-section form p {
+.main-section h2, .main-section p, .main-section form label, .main-section form p {
     color: black;
 }
 
@@ -50,9 +50,10 @@
     border: 2px solid steelblue;
     border-radius: 5px;
     box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
 }
 
-.project-div h3 {
+.project-div h4 {
     width: 100%;
     color: black;
     background-color: steelblue;
@@ -183,11 +184,95 @@
     #profile-img {
         width: 30%;
         height: 30%;
-        border: 2px solid black;
-        border-radius: 50%;
     }
 
     .project-links {
         font-size: 140%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .custom-header {
+        background-position: 100% 70%;
+        background-size: 105%;
+    }
+
+    #profile-img {
+        width: 25%;
+        height: 25%;
+    }
+
+    #contact-form input, #contact-form textarea {
+        width: 50%;
+    }
+
+    #submit-btn {
+        width: 25%;
+    }
+
+    #resume-download {
+        text-align: left;
+    }
+
+    .project-links {
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .custom-header {
+        background-position: 80% 67%;
+        background-size: 110%;
+    }
+
+    .custom-header h1 {
+        color: white;
+        font-size: 250%;
+        text-align: left;
+    }
+
+    #profile-img {
+        width: 20%;
+        height: 20%;
+    }
+
+    .project-links {
+        font-size: 125%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .custom-header {
+        background-position: 107% 58%;
+        background-size: 107%;
+    }
+
+    #profile-img {
+        width: 18%;
+        height: 18%;
+    }
+
+    .project-links {
+        font-size: 140%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .custom-header {
+        background-position: right;
+        background-size: unset;
+    }
+
+    #profile-img {
+        width: 18%;
+        height: 18%;
+    }
+
+    .project-links {
+        font-size: 150%;
     }
 }

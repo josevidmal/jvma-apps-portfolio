@@ -3,10 +3,10 @@ import ResumePdf from '../../assets/Resume - Jose Vidal Maza Alonso.pdf'
 
 const Resume = () => {
     return (
-        <section className="container-fluid p-4 main-section">
-            <h1 className="row justify-content-center my-4">Resume</h1>
+        <section className="container-fluid p-4 px-md-5 main-section">
+            <h2 className="row justify-content-center justify-content-md-start my-4 px-md-2">Resume</h2>
             <p id="resume-download">Download my <span><a id="resume-link" href={ResumePdf} download>Resume</a></span></p>
-            <h3>Front-end Skills</h3>
+            <h4>Front-end Skills</h4>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -18,7 +18,7 @@ const Resume = () => {
                     <li>Webpack</li>
                     <li>Workbox</li>
                 </ul>
-            <h3>Back-end Skills</h3>
+            <h4>Back-end Skills</h4>
                 <ul>
                     <li>Node.js</li>
                     <li>Express.js</li>
