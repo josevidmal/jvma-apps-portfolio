@@ -3,6 +3,7 @@
     background-image: url("./assets/160636-software-desktop-wallpaper-top-free-software-desktop.jpeg");
     background-position: 3% 37%;
     background-size: 140%;
+    border-bottom: 5px solid steelblue;
 }
 
 .custom-header h1 {
@@ -26,11 +27,13 @@
     height: 50%;
     border: 2px solid black;
     border-radius: 50%;
+    box-shadow: 7px 3px 7px gray;
 }
 
 .main-section {
-    border-top: 5px solid steelblue;
-    border-bottom: 5px solid steelblue;
+    background-image: url("./assets/white-texture-background.webp");
+    background-position: unset;
+    background-size: cover;
 }
 
 .main-section h2, .main-section p, .main-section form label, .main-section form p {
@@ -128,7 +131,7 @@
 }
 
 #contact-form textarea {
-    height: 150px;
+    height: 200px;
 }
 
 #submit-btn {
@@ -164,6 +167,7 @@
 .custom-footer {
     height: 7em;
     background-color: rgb(20, 44, 99);
+    border-top: 5px solid steelblue;
 }
 
 .custom-footer .nav .nav-item .nav-link {

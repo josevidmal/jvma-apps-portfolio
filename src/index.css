@@ -2,11 +2,5 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Righteous', cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-    background-image: url("./assets/white-texture-background.webp");
-    background-position: unset;
-    background-size: contain;
+    font-family: 'Righteous', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
