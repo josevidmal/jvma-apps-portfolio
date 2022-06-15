@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/jvma-apps-portfolio/static/css/main.c4a5a5c1.css",
-    "main.js": "/jvma-apps-portfolio/static/js/main.e6cc01e4.js",
-    "static/media/jvma-react-portfolio-2.png": "/jvma-apps-portfolio/static/media/jvma-react-portfolio-2.c86da6bde46fdb4162f4.png",
+    "main.js": "/jvma-apps-portfolio/static/js/main.5fc50b88.js",
+    "static/media/jvma-react-portfolio-2.png": "/jvma-apps-portfolio/static/media/jvma-react-portfolio-2.c94719fe38188cea975d.png",
     "static/media/safe-trip-planner.png": "/jvma-apps-portfolio/static/media/safe-trip-planner.014c80f057d96f40dd25.png",
     "static/media/jvma-react-portfolio-1.png": "/jvma-apps-portfolio/static/media/jvma-react-portfolio-1.ce06ab6e74c866342cb5.png",
     "static/media/jvma-react-portfolio-4.png": "/jvma-apps-portfolio/static/media/jvma-react-portfolio-4.f176412b0b5c9e845a6c.png",
+    "static/media/broken-pallets-1.png": "/jvma-apps-portfolio/static/media/broken-pallets-1.348fa7c2f4a786a7f99d.png",
     "static/media/motorcycle-club-1.png": "/jvma-apps-portfolio/static/media/motorcycle-club-1.f7c313c47040d3f983e7.png",
     "static/media/jvma-react-portfolio-3.png": "/jvma-apps-portfolio/static/media/jvma-react-portfolio-3.42903fec3d1d33862a0f.png",
     "static/media/weather-dashboard-displayed-info.png": "/jvma-apps-portfolio/static/media/weather-dashboard-displayed-info.6322cf03958d2a65ef6d.png",
@@ -15,14 +16,14 @@
     "static/media/note-taker-2.png": "/jvma-apps-portfolio/static/media/note-taker-2.ebfc4eb2b5bc488ee953.png",
     "static/media/160636-software-desktop-wallpaper-top-free-software-desktop.jpeg": "/jvma-apps-portfolio/static/media/160636-software-desktop-wallpaper-top-free-software-desktop.7ef6d9d8c955bf751016.jpeg",
     "static/media/white-texture-background.webp": "/jvma-apps-portfolio/static/media/white-texture-background.a5f18d0d5c5245b2dba1.webp",
-    "static/media/Resume - Jose Vidal Maza Alonso.pdf": "/jvma-apps-portfolio/static/media/Resume - Jose Vidal Maza Alonso.4af1814e39bdb1297868.pdf",
+    "static/media/Resume - Jose Vidal Maza Alonso.pdf": "/jvma-apps-portfolio/static/media/Resume - Jose Vidal Maza Alonso.3d48386980eda9935ee3.pdf",
     "static/media/linkedin-logo.png": "/jvma-apps-portfolio/static/media/linkedin-logo.e48e40cf628c34d79b43.png",
     "index.html": "/jvma-apps-portfolio/index.html",
     "main.c4a5a5c1.css.map": "/jvma-apps-portfolio/static/css/main.c4a5a5c1.css.map",
-    "main.e6cc01e4.js.map": "/jvma-apps-portfolio/static/js/main.e6cc01e4.js.map"
+    "main.5fc50b88.js.map": "/jvma-apps-portfolio/static/js/main.5fc50b88.js.map"
   },
   "entrypoints": [
     "static/css/main.c4a5a5c1.css",
-    "static/js/main.e6cc01e4.js"
+    "static/js/main.5fc50b88.js"
   ]
 }
